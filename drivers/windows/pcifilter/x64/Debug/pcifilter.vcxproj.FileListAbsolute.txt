@@ -1,0 +1,1 @@
+C:\Users\zhoujun2\workspace\myfork\chipsec_filter\chipsec\drivers\windows\pcifilter\x64\Debug\pcifilter.sys
