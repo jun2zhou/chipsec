@@ -1,7 +1,12 @@
 name: Run tests
 
-on: [push, pull_request]
-
+on:
+  schedule:
+    - cron: '46 05 * * *'
+  pull_request:
+  push:
+  workflow_dispatch:
+  
 jobs:
   build-linux-km:
     name: Linux kernel module
