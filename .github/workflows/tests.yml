@@ -2,7 +2,7 @@ name: Run tests
 
 on:
   schedule:
-    - cron: '46 05 * * *'
+    - cron: '49 07 * * *'
   pull_request:
   push:
   workflow_dispatch:
